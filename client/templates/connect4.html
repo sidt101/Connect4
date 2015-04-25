@@ -1,0 +1,24 @@
+<head>
+  <title>Connect4</title>
+</head>
+
+<body>
+	<h1>Welcome to Connect 4!</h1>
+	<div class = 'container'>
+		{{> turn}}
+		<table>
+			<tr>
+			{{> listButtons}}
+		</tr>
+		</table>
+		<table>
+     		<tbody>
+		     	{{> listRows}}
+		    </tbody>
+    	</table>
+    	{{> resetCells}}
+	</div>
+	<div id="pos_fixed"></div>
+</body>
+
+

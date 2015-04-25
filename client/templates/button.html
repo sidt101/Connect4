@@ -1,0 +1,12 @@
+<template name="button">
+  <td class='top button' onclick = myFunction(this)>
+    <span class='move-{{move}}'>
+    	<button type="button" id="insertbutton" >Insert</button>
+    	<script>
+		function myFunction(x) {
+		    col_clicked = x.cellIndex;
+		}
+		</script>
+    </span>
+  </td>
+</template>
